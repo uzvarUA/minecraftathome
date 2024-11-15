@@ -1,0 +1,55 @@
+p:first-child {
+  display:none;
+}
+
+.viewer {
+  position:absolute;
+  user-select: none;
+}
+
+#myPanoViewer2 {
+  pointer-events:none;
+}
+
+#myPanoViewer1 .panoviewer-control {
+  z-index:100;
+  opacity:1 !important;
+}
+
+#myPanoViewer2 .panoviewer-control {
+  display:none;
+}
+
+.fullscreen-container {
+  position:absolute;
+}
+
+
+#toolbar {
+  position:absolute;
+  z-index:200;
+  padding:10px;
+  text-align:center;
+  width:calc(100%-20px);
+  user-select: none;
+}
+
+#toolbar > * {
+  display:inline-block;
+  vertical-align:middle;
+}
+
+#toolbar b {
+  text-shadow:0px 0px 2px white;
+}
+
+
+#refresher {
+  font-size:22px;
+  margin-right:20px;
+}
+
+#switcher {
+  font-size:16px;
+  margin-left:20px;
+}

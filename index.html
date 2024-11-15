@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<script scr="mine.js">
+	</script>
+	
+<!-- YOU CAN USE CUSTOM CUBEMAPS (even from Discord) here -->
+<p>https://i.imgur.com/U1ZF3ew.png</p>
+<!-- (This will replace the "original" layer) -->
+
+
+<style id="styler"></style>
+<div id="container">
+    <div id="toolbar">
+      <input type="button" value="Refresh [R]" id="refresher">
+      <b>Overlay opacity:</b>
+      <b>0%</b>
+      <input type="range" id="slider" min="0" max="1" step="0.01" value="0.5" id="opacitor">
+      <b>100%</b>
+      <input type="button" value="<- Switch layers [F]" id="switcher">
+    </div>
+  
+    <div class="viewer" id="myPanoViewer1"></div>
+    <div class="viewer" id="myPanoViewer2"></div>
+</div>
+
+<img id="preload_orig" src="https://i.imgur.com/U1ZF3ew.png" style="width:1px;height:1px;opacity:0;"/>
+<img id="preload" src="" style="width:1px;height:1px;opacity:0;"/>
+
+</body>
+</html>
